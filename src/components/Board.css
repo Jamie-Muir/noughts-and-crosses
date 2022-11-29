@@ -1,0 +1,51 @@
+.board {
+	background-color: rebeccapurple;
+	
+	width: fit-content;
+	margin: auto;
+	padding: 20px;
+
+	display: grid;
+	grid-template-rows: 1fr 1fr 1fr;
+	justify-content: center;
+	grid-gap: 5px;
+
+	border-radius: 15px;
+	border: black solid 1px;
+
+	z-index: 20;
+}
+
+.row {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	justify-items: stretch;
+	grid-gap: 5px;
+}
+
+
+.square {
+	height: 100px;
+	width: 100px;
+	cursor: pointer;
+	user-select: none;
+	background-color: rgb(71, 36, 106);
+	/* border: 2px solid white; */
+}
+
+.square span {
+	position: relative;
+	color: white;
+	top: 20%;
+	left: 0%;
+	font-size: 3em;
+	font-weight: 700;
+}
+
+.cross {
+	color: red;
+}
+
+.nought {
+	color: blue;
+}

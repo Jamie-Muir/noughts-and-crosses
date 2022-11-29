@@ -1,0 +1,58 @@
+.scoreboard {
+	background-color: rgb(0, 193, 193);
+	width: fit-content;
+	margin: auto;
+	border: black solid 2px;
+	border-radius: 15px;
+
+	position: relative;
+	left: -20px;
+	padding-left: 20px;
+
+	min-width: 305px;
+}
+
+
+.wins h3 {
+	display: inline-block;
+	background-color: rgba(0,0,0,.5);
+	margin: 10px;
+	padding: 10px;
+	color: red;
+	border-radius: 5px;
+	border: black solid 2px;
+
+}
+
+.wins h3:nth-child(even) {
+	color: rgb(0, 60, 255);
+	background-color: rgba(255,255,255,.5);
+}
+
+.reset-button {
+	padding: 2px 20px;
+	font-size: 1.2em;
+	font-weight: bold;
+	letter-spacing: 5px;
+	background-color: rgba(0,0,0,0);
+	transition: all linear .1s;
+	border-radius: 5px;
+}
+
+.reset-button:hover {
+	background-color: rgba(255,255,255,.5);
+}
+.reset-button:active {
+	color: white;
+	background-color: rgba(0,0,0,.7);
+}
+
+@media (max-width: 800px) {
+	.scoreboard {
+		left: 0;
+		padding-left: 0;
+		padding-bottom: 20px;
+		bottom: -20px;
+
+	}
+}
