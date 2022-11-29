@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/noughts-and-crosses/static/css/main.fd8ee856.css",
-    "main.js": "/noughts-and-crosses/static/js/main.330a0bcf.js",
+    "main.css": "/noughts-and-crosses/static/css/main.1d60367d.css",
+    "main.js": "/noughts-and-crosses/static/js/main.1bec4d4a.js",
     "static/js/787.b2e37d2a.chunk.js": "/noughts-and-crosses/static/js/787.b2e37d2a.chunk.js",
     "index.html": "/noughts-and-crosses/index.html",
-    "main.fd8ee856.css.map": "/noughts-and-crosses/static/css/main.fd8ee856.css.map",
-    "main.330a0bcf.js.map": "/noughts-and-crosses/static/js/main.330a0bcf.js.map",
+    "main.1d60367d.css.map": "/noughts-and-crosses/static/css/main.1d60367d.css.map",
+    "main.1bec4d4a.js.map": "/noughts-and-crosses/static/js/main.1bec4d4a.js.map",
     "787.b2e37d2a.chunk.js.map": "/noughts-and-crosses/static/js/787.b2e37d2a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fd8ee856.css",
-    "static/js/main.330a0bcf.js"
+    "static/css/main.1d60367d.css",
+    "static/js/main.1bec4d4a.js"
   ]
 }
