@@ -30,7 +30,6 @@
 	cursor: pointer;
 	user-select: none;
 	background-color: rgb(71, 36, 106);
-	/* border: 2px solid white; */
 }
 
 .square span {
@@ -40,12 +39,4 @@
 	left: 0%;
 	font-size: 3em;
 	font-weight: 700;
-}
-
-.cross {
-	color: red;
-}
-
-.nought {
-	color: blue;
 }

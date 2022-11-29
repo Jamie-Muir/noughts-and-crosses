@@ -80,6 +80,7 @@ export function BoardContextProvider(props) {
 		if(checkedRow || checkedCol || checkedDiag) {
 			setWinner(playerChecked);
 			addWin(playerChecked);
+			return;
 		}
 
 		if(checkDraw(board)) setWinner('Draw');
